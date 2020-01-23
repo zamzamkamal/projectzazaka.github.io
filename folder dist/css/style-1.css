@@ -1,0 +1,301 @@
+body {
+	background-color: #F5F5F5;
+	width: 1920px;
+}
+
+*{
+	margin: 0;
+}
+
+.header {
+	height: 74px;
+	background-color: #4482FF;
+	resize: none;
+}
+
+.logo{
+	height: 70px;
+	width: 175px;
+	margin-left: 35px;
+}
+
+.logo-indo{
+	height: 42px;
+	width: 42px;
+	float: right;
+	margin-right: 13px;
+	border-radius: 50px;
+	margin-top: 13px;
+}
+
+.user{
+    margin-top: 13px;
+    margin-right: 13px;
+	height: 50px;
+    width: 50px;
+    border-radius: 50px;
+	float: right;
+}
+
+
+
+/* css navbar */
+
+
+.nav ul{
+	height: 64px;
+	background-color: #3E75E6;
+	resize: none;
+}
+
+.dashboard {
+	height: 20px;
+	width: 81px;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 8px;
+	margin-right: 10px;
+	
+}
+
+.jadwal-dokter {
+	height: 20px;
+	width: 99px;
+	color: #C2C0C0;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 8px;
+    margin-right: 10px;	
+}
+
+.data-rawat-jalan {
+	height: 20px;
+	width: 124px;
+	color: #D0D0D0;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 8px;
+	margin-right: 10px;	
+}
+
+.data-rawat-jalan2 {
+	height: 20px;
+	width: 124px;
+	color: #D0D0D0;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 60px;
+	text-decoration: none;
+	padding: 8px;
+	margin-right: 10px;
+}
+
+.overview {
+	height: 36px;
+	width: 141px;
+	color: #535353;
+	font-family: "arial SemiBold";
+	font-size: 26px;
+	letter-spacing: 1.95px;
+	line-height: 65px;
+	margin-left: 45px;
+}
+
+       .search-form {	
+			margin-top: -10px;
+			float: right;
+			margin-right: 100px;
+		}
+
+		input[type=text1] {
+			padding: 7px;
+			border: none;
+			font-size: 16px;
+			border-radius: 5px 0 0 5px;
+			font-family: sans-serif;
+			border: 1px solid #4358CE;
+			height: 28px;
+			margin-top: -10px;
+			margin-right: 0px;
+		}
+
+		button {
+			height: 44px;
+			float: right;
+			background: #4358CE;
+			color: white;
+			border-radius: 0 5px 5px 0;
+			cursor: pointer;
+			position: relative;
+			padding: 7px;
+			font-family: sans-serif;
+			border: none;
+			font-size: 16px;
+			margin-top: -10px;
+			margin-right: -50px;
+		
+		}
+
+
+
+.button:hover  {
+	height: 13.78px;
+	width: 12.79px;
+	background-color: #FFFFFF;
+	margin-top: -20px;
+}
+
+.box-year {
+	text-align: center;
+	box-sizing: border-box;
+	height: 46px;
+	width: 105px;
+	border: 1px solid rgba(67,88,206,0.5);
+	border-radius: 4px;
+	background-color: #EDF0F9;
+	float: right;
+	margin-right: 25px;
+	margin-top: -20px;
+}
+
+.box-month {
+	text-align: center;
+	box-sizing: border-box;
+	height: 46px;
+	width: 105px;
+	border: 1px solid rgba(67,88,206,0.5);
+	border-radius: 4px;
+	background-color: #EDF0F9;
+	float: right;
+	margin-right: 25px;
+	margin-top: -20px;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+
+	/* add flexbox style */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap; 
+}
+
+.rectangle {
+	width: 400px;
+	height: 165px;
+	margin: 20px; 
+	box-sizing: border-box;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+
+.rectangle1 {
+	width: 1840px;
+	height: 568px;
+	margin: 25px; 
+	box-sizing: border-box;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+
+.list-pencarian-pasien-lama {
+	height: 23px;
+	width: 255px;
+	margin: 25px;
+	color: #535353;
+	font-family: "arial SemiBold";
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	line-height: 35px;
+	margin-top: 40px;
+}
+
+.tambah-pasien-baru{
+	box-sizing: border-box;
+	height: 46px;
+	width: 200px;
+	border: 1px solid #4358CE;
+	border-radius: 4px;
+	background-color: #4358CE;
+	margin-top: -62px;
+	margin-right: 2%;
+}
+
+
+
+
+
+	
+
+
+.pencarian-pasien {
+	height: 23px;
+	width: 152px;
+	color: #535353;
+	font-family: "arial SemiBold";
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	line-height: 25px;
+	text-align: center;
+	margin-left: 45%;
+}
+
+.rectangle-pencarian {
+	box-sizing: border-box;
+	height: 46px;
+	width: 401px;
+	border: 1px solid #E9EFF4;
+	border-radius: 4px;
+	float: right;
+	margin-right: 25%;
+	margin-top: 25px;
+}
+
+.rectangle-pencarian-logo {
+	box-sizing: border-box;
+	height: 46px;
+	width: 46px;
+	border: 1px solid red;
+	border-radius: 0 4px 4px 0;
+	background-color: rgba(244,247,249,0.4);
+	float: right;
+}
+
+
+       .search-form {	
+			margin-top: -10px;
+			float: right;
+			margin-right: 100px;
+		}
+
+		input[type=text2] {
+			padding: 7px;
+			font-size: 16px;
+			font-family: sans-serif;
+			margin-top: -10px;
+			margin-right: 50px;
+			float: left;
+			box-sizing: border-box;
+			height: 46px;
+			width: 401px;
+			border: 1px solid #E9EFF4;
+			border-radius: 4px;
+		}
+
+		
